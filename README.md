@@ -13,7 +13,7 @@ This is a simple KV merkle proof hosting service used to serve Meteora Alpha Vau
 ### 1. Clone the repo
 
 ```
-git clone https://github.com/MeteoraAg/kv-merkle-proof.git
+git clone https://github.com/MeteoraAg/cloudflare-kv-merkle-proof
 ```
 
 ### 2. Install dependencies
@@ -112,7 +112,7 @@ Copy the **worker URL** for later use
 ### 1. Clone the repo
 
 ```
-git clone https://github.com/MeteoraAg/kv-merkle-proof.git
+git clone https://github.com/MeteoraAg/cloudflare-kv-merkle-proof
 ```
 
 ### 2. Prepare merkle proof
