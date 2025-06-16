@@ -1,0 +1,15 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "kv-merkle-proof",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-06-12",
+	"observability": {
+		"enabled": true
+	},
+	"kv_namespaces": [
+		{
+			"binding": "alpha_vault_merkle_proof",
+			"id": "<namespace_id>"
+		}
+	]
+}

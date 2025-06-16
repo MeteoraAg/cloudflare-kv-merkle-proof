@@ -1,0 +1,25 @@
+{
+	"name": "kv-merkle-proof",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest",
+		"cf-typegen": "wrangler types",
+		"upload-proof": "ts-node scripts/upload_merkle_proof.ts"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.5.2",
+		"wrangler": "^4.19.2"
+	},
+	"dependencies": {
+		"@solana/addresses": "^2.1.1",
+		"ajv": "^8.17.1",
+		"dotenv": "^16.5.0",
+		"hono": "^4.7.11"
+	}
+}
