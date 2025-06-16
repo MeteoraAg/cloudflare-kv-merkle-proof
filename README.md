@@ -106,30 +106,6 @@ Current Version ID: <VERSION_ID>
 
 Copy the **worker URL** for creation of `MerkleProofMetadata` account and automatic merkle proof uploading from [meteora-pool-setup](https://github.com/MeteoraAg/meteora-pool-setup/blob/cb85e100124fc55d2e8daa3e56d9829ddca581c0/config/create_dynamic_amm_pool_with_permissioned_with_merkle_proof_vault.json#L26)
 
-## Steps to seed the merkle proof
-
-### 1. Clone the repo
-
-```
-git clone https://github.com/MeteoraAg/cloudflare-kv-merkle-proof
-```
-
-### 2. Prepare merkle proof
-
-Copy the merkle proof from [meteora-pool-setup](https://github.com/MeteoraAg/meteora-pool-setup/tree/main) after create the vault into [merkle_proofs](./merkle_proofs/) folder
-
-### 3. Prepare env
-
-Update value for [env](./scripts/.env)
-
-### 4. Seed the merkle proof
-
-Run
-
-```
-npm run upload-proof
-```
-
 ## Hosting without using Cloudflare KV
 
 If you wish to serve the merkle proofs without using Cloudflare KV, please make sure you follow the following API specification.
