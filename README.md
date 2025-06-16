@@ -6,7 +6,6 @@ This is a simple KV merkle proof hosting service used to serve Meteora Alpha Vau
 
 - Node.js
 - A registered cloudflare account
-- Generated merkle proof from [meteora-pool-setup](https://github.com/MeteoraAg/meteora-pool-setup/tree/main) after create the vault
 
 ## Steps to deploy the KV worker
 
