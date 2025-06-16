@@ -105,7 +105,7 @@ Deployed kv-merkle-proof triggers (2.97 sec)
 Current Version ID: <VERSION_ID>
 ```
 
-Copy the **worker URL** for later use
+Copy the **worker URL** for creation of `MerkleProofMetadata` account and automatic merkle proof uploading from [meteora-pool-setup](https://github.com/MeteoraAg/meteora-pool-setup/blob/cb85e100124fc55d2e8daa3e56d9829ddca581c0/config/create_dynamic_amm_pool_with_permissioned_with_merkle_proof_vault.json#L26)
 
 ## Steps to seed the merkle proof
 
